@@ -1,0 +1,147 @@
+print("Digite 1 para soma, 2 para subtração, digite 3 para multiplicação, digite 4 para divisão, digite 5 para potência, digite 6 para raíz quadrada, digite 7 para calcular IMC, digite 8 para calcular a área do quadrado, digite 9 para calcular a área do retângulo, digite 10 para calcular a área do triângulo, digite 11 para calcular a área do círculo, digite 12 para calcular a área do trapézio, digite 13 para calcular a área do losango, digite 14 para calcular a área do paralelogramo, digite 15 para calcular  porcentagem, digite 16 para calcular raiz cúbica, digite 17 para calcular o cosseno, digite 18 para seno, digite 19 para tangente, digite 20 para converter graus em radiano")
+opções = float(input())
+if opções == 1:
+    print("Digite o primeiro número")
+    a = float(input())
+    print("Digite o segundo número")
+    b = float(input())
+    c = a + b
+    print("O resultado da operação é " + str(c))
+else:
+    if opções == 2:
+        print("Digite o primeiro número")
+        a = float(input())
+        print("Digite o segundo número")
+        b = float(input())
+        c = a - b
+        print("O resultado da operação é " + str(c))
+    else:
+        if opções == 3:
+            print("Digite o valor do primeiro número")
+            a = float(input())
+            print("Digite o valor do multiplicador")
+            b = float(input())
+            c = a * b
+            print("O resultado da operação é " + str(c))
+        else:
+            if opções == 4:
+                print("Digite o valor do número")
+                a = float(input())
+                print("Digite o valor do divisor")
+                b = float(input())
+                c = a / b
+                print("O resultado é " + str(c))
+            else:
+                if opções == 5:
+                    print("Escreva o número")
+                    a = float(input())
+                    print("Escreva o número do expoente")
+                    b = float(input())
+                    c = a ** b
+                    print("O resultado da operação é " + str(c))
+                else:
+                    if opções == 6:
+                        print("Digite o valor do número")
+                        a = float(input())
+                        b = sqrt(a)
+                        print("O resultado da operação é " + str(b))
+                    else:
+                        if opções == 7:
+                            print("Digite o valor do seu peso em kg")
+                            a = float(input())
+                            print("Digite o valor da sua altura em metros")
+                            b = float(input())
+                            c = a / b ** 2
+                            print(" O valor de seu IMC é " + str(c))
+                        else:
+                            if opções == 8:
+                                print("Digite o valor do lado do quadrado")
+                                a = float(input())
+                                b = a ** 2
+                                print("A área é" + str(b))
+                            else:
+                                if opções == 9:
+                                    print("Digite o valor da base")
+                                    a = float(input())
+                                    print("Digite o valor da altura")
+                                    b = float(input())
+                                    c = a * b
+                                    print("A área é " + str(c))
+                                else:
+                                    if opções == 10:
+                                        print("Digite o valor da base")
+                                        a = float(input())
+                                        print("Digite o valor da altura")
+                                        b = float(input())
+                                        c = a * b / 2
+                                        print("A área é " + str(c))
+                                    else:
+                                        if opções == 11:
+                                            print("Digite o valor do raio")
+                                            a = float(input())
+                                            b = 3.14 * a ** 2
+                                            print("A área é " + str(b))
+                                        else:
+                                            if opções == 12:
+                                                print("Digite o valor da base maior")
+                                                a = float(input())
+                                                print("Digite o valor da base menor")
+                                                b = float(input())
+                                                print("Digite o valor da altura")
+                                                c = float(input())
+                                                d = a + b * c / 2
+                                                print("A área é " + str(d))
+                                            else:
+                                                if opções == 13:
+                                                    print("Digite o valor da diagonal maior")
+                                                    a = float(input())
+                                                    print("Digite o valor da diagonal menor")
+                                                    b = float(input())
+                                                    c = a * b / 2
+                                                    print("A área é " + str(c))
+                                                else:
+                                                    if opções == 14:
+                                                        print("Digite o valor da base")
+                                                        a = float(input())
+                                                        print("Digite o valor da altura")
+                                                        b = float(input())
+                                                        c = a * b
+                                                        print("A área é " + str(c))
+                                                    else:
+                                                        if opções == 15:
+                                                            print("Digite o valor do número")
+                                                            a = float(input())
+                                                            print("Digite o valor da porcentagem")
+                                                            b = float(input())
+                                                            c = b / 100 * a
+                                                            print("Resultado " + str(c))
+                                                        else:
+                                                            if opções == 16:
+                                                                print("Digite o valor desejado ")
+                                                                a = float(input())
+                                                                b = a ** float(1) / 3
+                                                                print("A raíz cúbica é" + str(b))
+                                                            else:
+                                                                if opções == 17:
+                                                                    print("Insira o valor em radianos")
+                                                                    a = float(input())
+                                                                    b = cos(a)
+                                                                    print("O valor é" + str(b))
+                                                                else:
+                                                                    if opções == 18:
+                                                                        print("Insira o valor em radiano")
+                                                                        a = float(input())
+                                                                        b = sin(a)
+                                                                        print("O valor é" + str(b))
+                                                                    else:
+                                                                        if opções == 19:
+                                                                            print("Digite o valor em radiano")
+                                                                            a = float(input())
+                                                                            b = tan(a)
+                                                                            print("O valor é" + str(b))
+                                                                        else:
+                                                                            if opções == 20:
+                                                                                print("Digite o valor em graus")
+                                                                                a = float(input())
+                                                                                b = a * 3.14 / 180
+                                                                                print("O valor em radiano é" + str(b))
