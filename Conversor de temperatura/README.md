@@ -1,4 +1,4 @@
-A atividade é o desenvolvimento de um programa capaz de converter unidades de temperatura como kelvin, celsius e fahrenheit na temperatura desejada.
+A atividade a seguir é o desenvolvimento de um programa capaz de converter unidades de temperatura como kelvin, celsius e fahrenheit na temperatura desejada.
 O programa funciona com diversas opções com cada opção sendo algumas das  possibilidades de conversão. O cálculo é realizado através declarado na fórmula 
 apropriada para cada opção, ao inserir um valor, imediatamente é realizado uma resolução matemática fornecendo respostas no final do programa apresentando o resultado.
 As opções disponíveis são todas as possibilidades entre farenheit, celsius e kelvin: Kelvin para celsius e farenheit; de celsius para farenheit e kelvin e de kelvin para
